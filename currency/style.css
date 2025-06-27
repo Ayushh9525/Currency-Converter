@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8F9491;
+}
+
+.container{
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+ 
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+/* .inputs{
+    width: 100%;
+} */
+
+form select,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+
+.from {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.to {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* .inputs{
+    border: 2px solid lightblue;
+    height: 30px;
+    font-size: 15px;
+} */
+input{
+    margin-top: 10px;
+    border: 2px solid lightgray;
+    height: 30px;
+    font-size: 15px;
+}
+.entr-mny {
+    margin-top: 10px;
+}
+.dropdown{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 25px;
+   
+}
+.dropdown img{
+    width: 25px;
+}
+
+select{
+    border: none;
+    outline: none;
+}
+
+.msg {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    height: 3rem;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+    font-size: 1.15rem;
+    cursor: pointer;
+  }
