@@ -1,2 +1,0 @@
-This is a responsive web-based currency converter application that allows users to convert values between different global currencies in real time. It features a simple and intuitive user interface with dynamic dropdowns, country flags for selected currencies, and live exchange rates fetched from the Free Currency API. The project is built using HTML, CSS, and JavaScript, and demonstrates API integration, DOM manipulation, and user input handling. Ideal for anyone looking to understand real-world API usage in frontend development.
-
